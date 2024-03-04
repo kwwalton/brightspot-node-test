@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>BrightSpot - Fetch Delivery Service Info</title>
+  </head>
+
+  <body>
+    <div>
+      <p>This page will make network calls to endpoints in Express.</p>
+      <p>By calling BrightSpot from node server (Express), we avoid CORS.</p>
+    </div>
+    <script>
+      // JSON Typicode example (practice for calling BrightSpot)
+      // t = fetch("/json-typicode").then((res) => res.json());
+      // console.log("t", t);
+
+      // BS example
+      const b = fetch("/bs-test").then((res) => res.json());
+      console.log("b", b);
+
+      // BS Axios example
+      const a = fetch("bs-axios").then((res) => res.json());
+      console.log("a", a);
+    </script>
+  </body>
+</html>

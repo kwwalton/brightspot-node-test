@@ -1,0 +1,16 @@
+{
+  "name": "brightspot-node-test",
+  "version": "1.0.0",
+  "description": "test network call to brightspot in node using Express",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "express": "^4.18.3"
+  }
+}
